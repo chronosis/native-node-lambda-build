@@ -1,7 +1,7 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: PicartoBot powered by CloudFormation, S3, API Gateway, and Lambda
+Description: Navite Node build using CloudFormation, S3, and Lambda
 Resources:
   LambdaFunction:
     Type: AWS::Serverless::Function
